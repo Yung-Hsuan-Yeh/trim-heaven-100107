@@ -5,7 +5,7 @@ api_version: 1
 threadsafe: false
 
 handlers:
-- url: /
+- url: .*
   script: main.app
 
 libraries:
